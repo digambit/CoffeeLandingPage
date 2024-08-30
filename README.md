@@ -50,5 +50,3 @@ We're always looking to improve our projects and challenges on WebDevDaily. So i
 
 **Happy coding!** 🚀
 =======
-# CoffeeLandingPage
->>>>>>> 7db1c7060076bdc28d18a1afe5312ee613c22518

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Coffee Landing Page
 
 ## Welcome! 👋
@@ -49,3 +50,6 @@ We provide the required icons but, if you prefer, you can use a font icon librar
 We're always looking to improve our projects and challenges on WebDevDaily. So if you have anything you'd like to mention, please email us webdevdailycontact@gmail.com.
 
 **Happy coding!** 🚀
+=======
+# CoffeeLandingPage
+>>>>>>> 7db1c7060076bdc28d18a1afe5312ee613c22518

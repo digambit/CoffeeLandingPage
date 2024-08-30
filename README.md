@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Coffee Landing Page
 
 ## Welcome! 👋

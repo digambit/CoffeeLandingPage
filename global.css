@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+.hero {
+  background-color: aqua;
+  height: 100vh;
+}
+
+.hero-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  background-color: purple;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hero-left-container {
+  width: 64%;
+  height: 100%;
+  background-color: white;
+}
+
+.hero-right-container {
+  width: 36%;
+  height: 100%;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-left-container {
+    width: 50%;
+    height: 50%;
+  }
+
+  .hero-right-container {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.cube {
+  top: 32px;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  background-color: #ffbd7f;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 2rem;
+}

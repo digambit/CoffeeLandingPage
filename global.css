@@ -11,7 +11,7 @@ html {
 
 .hero {
   background-color: aqua;
-  height: 100vh;
+  height: 883px;
 }
 
 .hero-container {
@@ -50,16 +50,29 @@ html {
   display: flex;
   width: 100%;
   background-color: pink;
-  margin: 0 auto;
 }
 
-h1 {
+.button {
+  top: 510px;
+  left: 25px;
+  position: absolute;
+  display: flex;
+  height: 35px;
+  width: 136px;
+  background-color: red;
+}
+
+.text-button {
+  font-size: 2rem;
+}
+
+.hero-h1 {
   padding-top: 31px;
   padding-left: 25px;
   font-size: 4rem;
 }
 
-p {
+.hero-p {
   padding-top: 32px;
   padding-left: 25px;
   padding-bottom: 81px;
@@ -78,6 +91,10 @@ p {
   }
 
   .text-container {
+    display: none;
+  }
+
+  .button {
     display: none;
   }
 

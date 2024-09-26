@@ -55,18 +55,31 @@ html {
   height: 284px;
   display: flex;
   width: 100%;
+  position: relative;
   background-color: pink;
 }
 
 .button {
-  top: 510px;
+  top: 224px;
   left: 25px;
   position: absolute;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   height: 35px;
   width: 100%;
   max-width: 136px;
   background-color: red;
+  border-radius: 24px;
+}
+
+.button-circle {
+  width: 100%;
+  max-width: 20px;
+  height: 20px;
+  background-color: aliceblue;
+  border-radius: 24px;
+  margin-right: 20px;
 }
 
 .hero-footer {

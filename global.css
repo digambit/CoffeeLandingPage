@@ -98,6 +98,30 @@ html {
   border-width: 5px;
 }
 
+.development {
+  background-color: hotpink;
+  height: 885px;
+  min-width: 300px
+}
+
+.cold-coffee {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  background-color: lawngreen;
+  height: 534px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.coffee-product {
+  width: 260px;
+  height: 418px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 95px;
+}
+
 @media screen and (min-width: 600px) {
   .hero {
     height: 860px;
@@ -136,7 +160,7 @@ html {
     height: 100%;
     background-color: white;
     border-style: solid;
-    border-width: 5px;
+    border-width: 5px;;
   }
 
   .text-container {
@@ -146,4 +170,14 @@ html {
   .button {
     display: none;
   }
+
+  .cold-coffee {
+    height: 772px;
+    justify-content: space-between;
+  }
+
+  .coffee-product {
+    margin-top: 258px;
+  }
 }
+

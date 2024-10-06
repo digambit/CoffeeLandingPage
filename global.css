@@ -57,7 +57,6 @@ html {
 }
 
 .button {
-  top: 224px;
   left: 25px;
   position: absolute;
   display: flex;
@@ -65,9 +64,13 @@ html {
   align-items: center;
   height: 35px;
   width: 100%;
-  max-width: 136px;
+  max-width: 140px;
   background-color: red;
   border-radius: 24px;
+}
+
+.text-container .button {
+  top: 224px;
 }
 
 .button-circle {
@@ -151,15 +154,8 @@ html {
   position: relative;
 }
 
-.about-us-button {
+.about-us .button {
   top: 542px;
-  left: 25px;
-  position: absolute;
-  height: 35px;
-  width: 100%;
-  max-width: 140px;
-  background-color: red;
-  border-radius: 24px;
 }
 
 .end {

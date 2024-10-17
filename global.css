@@ -168,10 +168,18 @@ html {
   padding-top: 80px;
 }
 
+.grid-container {
+  width: 100%;
+  height: 100%;
+  padding-left: 28px;
+  display: grid;
+  grid-template-columns: repeat(4, 242px);
+  grid-template-rows: repeat(2, 240px);
+  grid-gap: 15px;
+}
+
 .special-menu-product {
-  width: 50%;
-  height: 50%;
-  background-color: white;
+  background-color: antiquewhite;
   border-radius: 20px;
 }
 
@@ -263,6 +271,18 @@ html {
 
   .reward-program {
     height: 195px;
+  }
+
+  .special-menu {
+    height: 760px;
+    padding-top: 140px;
+  }
+
+  .grid-container {
+    padding-left: 140px;
+    grid-template-columns: repeat(4, 260px);
+    grid-template-rows: repeat(2, 266px);
+    grid-gap: 40px;
   }
 
   .about-us {

@@ -22,7 +22,7 @@ html {
   margin: 0 auto;
 }
 
-.main-cup-of-coffee {
+.hero-cup-of-coffee {
   position: absolute;
   top: calc(50% - 94px);
   left: calc(50% - 94px);
@@ -40,11 +40,32 @@ html {
 
 .navbar {
   z-index: 1;
-  top: 20px;
-  height: 26px;
+  top: 22px;
+  height: 44px;
   width: 100%;
   position: absolute;
   background-color: #ffbd7f;
+}
+
+.navbar-content-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.hero-coffee-bean {
+  position: absolute;
+  width: 28px;
+  height: 44px;
+  left: 22px;
+}
+
+.hero-menu-burger {
+  position: absolute;
+  top: calc(50% - 11px);
+  height: 22px;
+  width: 32px;
+  right: 22px;
 }
 
 .hero-left-container {
@@ -57,6 +78,10 @@ html {
   width: 50%;
   height: 100%;
   background-color: yellow;
+}
+
+.hero-coffee-beans {
+  display: none;
 }
 
 .text-container {
@@ -240,7 +265,22 @@ html {
     height: 860px;
   }
 
-  .main-cup-of-coffee {
+  .navbar {
+    height: 64px;
+  }
+
+  .hero-coffee-bean {
+    position: absolute;
+    width: 40px;
+    height: 64px;
+    left: 134px;
+  }
+
+  .hero-menu-burger {
+    display: none;
+  }
+
+  .hero-cup-of-coffee {
     top: calc(44% - 193px);
     left: calc(64% - 193px);
     z-index: 1;
@@ -256,6 +296,13 @@ html {
   .hero-right-container {
     width: 36%;
     height: 100%;
+    position: relative;
+  }
+
+  .hero-coffee-beans {
+    position: absolute;
+    display: block;
+    right: 0;
   }
   
   .hero-footer {

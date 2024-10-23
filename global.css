@@ -72,6 +72,7 @@ html {
   width: 50%;
   height: 100%;
   background-color: white;
+  position: relative;
 }
 
 .hero-right-container {
@@ -313,6 +314,20 @@ html {
     height: 100%;
   }
 
+  .hero-left-container .button {
+    display: block;
+    display: flex;
+    top: 472px;
+    left: 136px;
+    height: 46px;
+    width: 100%;
+    max-width: 170px;
+  }
+
+  .button-circle {
+    margin-right: 50px;
+  }
+
   .hero-right-container {
     width: 36%;
     height: 100%;
@@ -395,9 +410,12 @@ html {
     height: 485px;
   }
 
-  .button2 {
+  .about-us .button {
     top: 340px;
-    left: 595px;
+    left: 625px;
+    height: 40px;
+    width: 100%;
+    max-width: 144px;
   }
 
   .end{

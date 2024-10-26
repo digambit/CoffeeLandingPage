@@ -143,15 +143,18 @@ html {
   width: 100%;
   height: 313px;
   background-color: green;
-  display: flex;
-  flex-flow: row wrap;
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 70px 70px;
+  grid-template-rows: 65px;
+  column-gap: 88px;
+  row-gap: 88px;
+  justify-content: center;
 }
 
 .product {
-  width: 50%;
-  height: 50%;
-  background-color: white;
-  border-radius: 20px;
+  width: 70px;
+  height: 65px;
 }
 
 .development {
@@ -370,11 +373,16 @@ html {
     top: 760px;
     border-radius: 75px;
     z-index: 1;
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+    column-gap: 150px;
+    justify-content: center;
   }
-
+  
   .product {
-    width: 25%;
-    height: 100%;
+    width: 90px;
+    height: 82px;
   }
 
   .text-container {

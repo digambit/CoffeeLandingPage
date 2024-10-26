@@ -26,10 +26,15 @@ tasks:
       - yarn install
       - yarn dev
       
-  commit:
+  commit-react:
     cmds:
       - yarn build
       - git commit -a
+
+  commit:
+    cmds:
+      - git commit -a
+      - git push
       
   change-message:
     cmds:

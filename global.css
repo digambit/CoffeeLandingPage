@@ -223,6 +223,14 @@ html {
   width: 100%;
   height: 130px;
   background-color: blue;
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  width: 45px;
+  height: 45px;
+  margin-left: 25px;
 }
 
 .special-menu {
@@ -231,6 +239,8 @@ html {
   height: 600px;
   background-color: chocolate;
   padding-top: 80px;
+  overflow-x: scroll;
+  scrollbar-width: none;
 }
 
 .grid-container {
@@ -246,6 +256,23 @@ html {
 .special-menu-product {
   background-color: antiquewhite;
   border-radius: 20px;
+  padding: 8px;
+}
+
+.special-menu-product img {
+  display: block;
+  width: 225px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.special-menu-button {
+  width: 112px;
+  height: 34px;
+  margin-top: 40px;
+  margin-left: 114px;
+  background-color: forestgreen;
+  border-radius: 10px;
 }
 
 .about-us {
@@ -417,6 +444,12 @@ html {
     height: 195px;
   }
 
+  .star-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+  }
+
   .special-menu {
     height: 760px;
     padding-top: 140px;
@@ -427,6 +460,21 @@ html {
     grid-template-columns: repeat(4, 260px);
     grid-template-rows: repeat(2, 266px);
     grid-gap: 40px;
+  }
+
+  .special-menu-product {
+    padding: 15px;
+  }
+
+  .special-menu-product img {
+    width: 230px;
+  }
+
+  .special-menu-button {
+    width: 120px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 114px;
   }
 
   .about-us {

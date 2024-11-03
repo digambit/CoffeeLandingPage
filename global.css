@@ -219,6 +219,14 @@ html {
   z-index: 1;
 }
 
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: none !important;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: none !important;
+}
+
 .reward-program {
   width: 100%;
   height: 130px;
@@ -437,6 +445,18 @@ html {
     width: 120px;
     height: 38px;
     margin-top: 230px;
+  }
+
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev' !important;
+    font-size: 50px !important;
+    color: black;
+  }
+
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next' !important;
+    font-size: 50px !important;
+    color: black;
   }
 
   .reward-program {

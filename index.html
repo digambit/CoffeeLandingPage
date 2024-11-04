@@ -1,58 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com"     crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet" />
-    <title>Coffee Landing Page</title>
-  </head>
-  <body>
-    <header>
-      <section class="hero">
-        <div class="hero-container">
-          <div class="navbar">
-            <div class="navbar-content-wrapper">
-              <figure class="hero-coffee-bean">
-                <img src="/assets/hero-coffee-bean.png" alt="Picture of a coffee bean" height="100%" width="100%">
-              </figure>
-              <figure class="hero-menu-burger">
-                <img src="/assets/hero-menu-burger.svg" alt="Icon of hero menu burger" height="100%" width="100%">
-              </figure>
-              <figure class="hero-cart">
-                <img src="/assets/icons-cart.png" alt="Icon of a cart" height="100%" width="100%">
-              </figure>
-              <div class="hero-search-bar">
-                <figure class="hero-search-icon">
-                  <img src="/assets/icons-search.png" alt="Icon of a magnifying glass">
-                </figure>
-              </div>
-            </div>
-          </div>
-          <div class="hero-content">
-            <div class="hero-left-container">
-              <div class="button">
-                <div class="button-circle">
-                  <figure class="cart-container">
-                    <img src="/assets/icons-cart.png" alt="Icon of a cart" height="100%" width="100%">
-                  </figure>
-                </div>
-              </div>
-            </div>
-            <div class="hero-right-container">
-              <figure class="hero-coffee-beans">
-                <img src="/assets/hero-coffee-beans.png" alt="Picture of coffee beans" height="100%" width="100%">
-              </figure>
-            </div>
-            <figure class="hero-cup-of-coffee">
-              <img src="./assets/cup-of-coffee.png" alt="Picture of a cup of coffee" height="100%" width="100%">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <title>Coffee Landing Page</title>
+</head>
+
+<body>
+  <header>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="navbar">
+          <div class="navbar-content-wrapper">
+            <figure class="hero-coffee-bean">
+              <img src="/assets/hero-coffee-bean.png" alt="Picture of a coffee bean" height="100%" width="100%">
             </figure>
+            <figure class="hero-menu-burger">
+              <img src="/assets/hero-menu-burger.svg" alt="Icon of hero menu burger" height="100%" width="100%">
+            </figure>
+            <figure class="hero-cart">
+              <img src="/assets/icons-cart.png" alt="Icon of a cart" height="100%" width="100%">
+            </figure>
+            <div class="hero-search-bar">
+              <figure class="hero-search-icon">
+                <img src="/assets/icons-search.png" alt="Icon of a magnifying glass">
+              </figure>
+            </div>
           </div>
-          <div class="text-container">
+        </div>
+        <div class="hero-content">
+          <div class="hero-left-container">
             <div class="button">
               <div class="button-circle">
                 <figure class="cart-container">
@@ -61,182 +45,208 @@
               </div>
             </div>
           </div>
-          <div class="hero-footer">
-            <figure class="product">
-              <img src="/assets/hot-coffee.png" alt="Picture of hot coffee" height="100%" width="100%">
-            </figure>
-            <figure class="product">
-              <img src="/assets/cold-coffee.png" alt="Picture of hot coffee" height="100%" width="100%">
-            </figure>
-            <figure class="product">
-              <img src="/assets/tea.png" alt="Picture of hot coffee" height="100%" width="100%">
-            </figure>
-            <figure class="product">
-              <img src="/assets/dessert.png" alt="Picture of hot coffee" height="100%" width="100%">
+          <div class="hero-right-container">
+            <figure class="hero-coffee-beans">
+              <img src="/assets/hero-coffee-beans.png" alt="Picture of coffee beans" height="100%" width="100%">
             </figure>
           </div>
+          <figure class="hero-cup-of-coffee">
+            <img src="./assets/cup-of-coffee.png" alt="Picture of a cup of coffee" height="100%" width="100%">
+          </figure>
         </div>
-      </section>
-    </header>
-    <main>
-      <section class="development">
-        <div class="development-container">
-          <div class="cold-coffee">
-            <div class="container">
-              <div class="carousel-view">
-                <button id="prev-btn" class="prev-btn">
-                  <svg viewBox="0 0 512 512" class="carousel-button" title="chevron-circle-left">
-                    <path d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z" />
-                  </svg>
-                </button>
-                <div id="item-list" class="item-list">
-                  <div id="item" class="item">
-                    <figure>
-                      <img src="/assets/menu_item_1.png" alt="Picture of coffee product">
-                    </figure>
-                    <div class="item-button"></div>
-                  </div>
-                  <div id="item" class="item">
-                    <figure>
-                      <img src="/assets/menu_item_2.png" alt="Picture of coffee product">
-                    </figure>
-                    <div class="item-button"></div>
-                  </div>
-                  <div id="item" class="item">
-                    <figure>
-                      <img src="/assets/menu_item_3.png" alt="Picture of coffee product">
-                    </figure>
-                    <div class="item-button"></div>
-                  </div>
-                  <div id="item" class="item">
-                    <figure>
-                      <img src="/assets/menu_item_4.png" alt="Picture of coffee product">
-                    </figure>
-                    <div class="item-button"></div>
-                  </div>
-                  <div id="item" class="item">
-                    <figure>
-                      <img src="/assets/menu_item_5.png" alt="Picture of coffee product">
-                    </figure>
-                    <div class="item-button"></div>
-                  </div>
-                  <div id="item" class="item">
-                    <figure>
-                      <img src="/assets/menu_item_6.png" alt="Picture of coffee product">
-                    </figure>
-                    <div class="item-button"></div>
-                  </div>
-                  <div id="item" class="item">
-                    <figure>
-                      <img src="/assets/menu_item_7.png" alt="Picture of coffee product">
-                    </figure>
-                    <div class="item-button"></div>
-                  </div>
-                  <div id="item" class="item">
-                    <figure>
-                      <img src="/assets/menu_item_8.png" alt="Picture of coffee product">
-                    </figure>
-                    <div class="item-button"></div>
-                  </div>
+        <div class="hero-text-container">
+          <div class="hero-title">
+            The <span class="hero-color-change">coffee</span> you will fall in <span class="hero-color-change">love</span> with
+          </div>
+          <div class="hero-subtitle">
+            Sip, savor, and spread the love - where every cup is a caffeinated hug at our cozy coffee
+            haven!
+          </div>
+          <div class="hero-button">
+            <div class="button-circle">
+              <figure class="cart-container">
+                <img src="/assets/icons-cart.png" alt="Icon of a cart" height="100%" width="100%">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="hero-footer">
+          <figure class="product">
+            <img src="/assets/hot-coffee.png" alt="Picture of hot coffee" height="100%" width="100%">
+          </figure>
+          <figure class="product">
+            <img src="/assets/cold-coffee.png" alt="Picture of hot coffee" height="100%" width="100%">
+          </figure>
+          <figure class="product">
+            <img src="/assets/tea.png" alt="Picture of hot coffee" height="100%" width="100%">
+          </figure>
+          <figure class="product">
+            <img src="/assets/dessert.png" alt="Picture of hot coffee" height="100%" width="100%">
+          </figure>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="development">
+      <div class="development-container">
+        <div class="cold-coffee">
+          <div class="container">
+            <div class="carousel-view">
+              <button id="prev-btn" class="prev-btn">
+                <svg viewBox="0 0 512 512" class="carousel-button" title="chevron-circle-left">
+                  <path
+                    d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z" />
+                </svg>
+              </button>
+              <div id="item-list" class="item-list">
+                <div id="item" class="item">
+                  <figure>
+                    <img src="/assets/menu_item_1.png" alt="Picture of coffee product">
+                  </figure>
+                  <div class="item-button"></div>
                 </div>
-                <button id="next-btn" class="next-btn">
-                  <svg viewBox="0 0 512 512" class="carousel-button" title="chevron-circle-right">
-                    <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
-                  </svg>
-                </button>
+                <div id="item" class="item">
+                  <figure>
+                    <img src="/assets/menu_item_2.png" alt="Picture of coffee product">
+                  </figure>
+                  <div class="item-button"></div>
+                </div>
+                <div id="item" class="item">
+                  <figure>
+                    <img src="/assets/menu_item_3.png" alt="Picture of coffee product">
+                  </figure>
+                  <div class="item-button"></div>
+                </div>
+                <div id="item" class="item">
+                  <figure>
+                    <img src="/assets/menu_item_4.png" alt="Picture of coffee product">
+                  </figure>
+                  <div class="item-button"></div>
+                </div>
+                <div id="item" class="item">
+                  <figure>
+                    <img src="/assets/menu_item_5.png" alt="Picture of coffee product">
+                  </figure>
+                  <div class="item-button"></div>
+                </div>
+                <div id="item" class="item">
+                  <figure>
+                    <img src="/assets/menu_item_6.png" alt="Picture of coffee product">
+                  </figure>
+                  <div class="item-button"></div>
+                </div>
+                <div id="item" class="item">
+                  <figure>
+                    <img src="/assets/menu_item_7.png" alt="Picture of coffee product">
+                  </figure>
+                  <div class="item-button"></div>
+                </div>
+                <div id="item" class="item">
+                  <figure>
+                    <img src="/assets/menu_item_8.png" alt="Picture of coffee product">
+                  </figure>
+                  <div class="item-button"></div>
+                </div>
               </div>
+              <button id="next-btn" class="next-btn">
+                <svg viewBox="0 0 512 512" class="carousel-button" title="chevron-circle-right">
+                  <path
+                    d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                </svg>
+              </button>
             </div>
-          </div>
-          <div class="reward-program">
-            <figure class="star-icon">
-              <img src="/assets/star-icon.png" alt="Icon of a star" height="100%" width="100%">
-            </figure>
-          </div>
-          <div class="special-menu">
-            <div class="grid-container">
-              <div class="special-menu-product">
-                <figure>
-                  <img src="/assets/menu_item_1.png" alt="Picture of coffee product">
-                </figure>
-                <div class="special-menu-button"></div>
-              </div>
-              <div class="special-menu-product">
-                <figure>
-                  <img src="/assets/menu_item_2.png" alt="Picture of coffee product">
-                </figure>
-                <div class="special-menu-button"></div>
-              </div>
-              <div class="special-menu-product">
-                <figure>
-                  <img src="/assets/menu_item_3.png" alt="Picture of coffee product">
-                </figure>
-                <div class="special-menu-button"></div>
-              </div>
-              <div class="special-menu-product">
-                <figure>
-                  <img src="/assets/menu_item_4.png" alt="Picture of coffee product">
-                </figure>
-                <div class="special-menu-button"></div>
-              </div>
-              <div class="special-menu-product">
-                <figure>
-                  <img src="/assets/menu_item_5.png" alt="Picture of coffee product">
-                </figure>
-                <div class="special-menu-button"></div>
-              </div>
-              <div class="special-menu-product">
-                <figure>
-                  <img src="/assets/menu_item_6.png" alt="Picture of coffee product">
-                </figure>
-                <div class="special-menu-button"></div>
-              </div>
-              <div class="special-menu-product">
-                <figure>
-                  <img src="/assets/menu_item_7.png" alt="Picture of coffee product">
-                </figure>
-                <div class="special-menu-button"></div>
-              </div>
-              <div class="special-menu-product">
-                <figure>
-                  <img src="/assets/menu_item_8.png" alt="Picture of coffee product">
-                </figure>
-                <div class="special-menu-button"></div>
-              </div>
-            </div>
-          </div>
-          <div class="about-us">
-            <figure class="about-us-img">
-              <img src="/assets/serving-coffee.png" alt="Picture of a waiter serving coffee">
-            </figure>
-            <div class="button"></div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="end">
-      <section class="end-container">
-        <figure class="hero-coffee-bean2">
-          <img src="/assets/hero-coffee-bean.png" alt="Picture of a coffee bean" height="100%" width="100%">
+        <div class="reward-program">
+          <figure class="star-icon">
+            <img src="/assets/star-icon.png" alt="Icon of a star" height="100%" width="100%">
+          </figure>
+        </div>
+        <div class="special-menu">
+          <div class="grid-container">
+            <div class="special-menu-product">
+              <figure>
+                <img src="/assets/menu_item_1.png" alt="Picture of coffee product">
+              </figure>
+              <div class="special-menu-button"></div>
+            </div>
+            <div class="special-menu-product">
+              <figure>
+                <img src="/assets/menu_item_2.png" alt="Picture of coffee product">
+              </figure>
+              <div class="special-menu-button"></div>
+            </div>
+            <div class="special-menu-product">
+              <figure>
+                <img src="/assets/menu_item_3.png" alt="Picture of coffee product">
+              </figure>
+              <div class="special-menu-button"></div>
+            </div>
+            <div class="special-menu-product">
+              <figure>
+                <img src="/assets/menu_item_4.png" alt="Picture of coffee product">
+              </figure>
+              <div class="special-menu-button"></div>
+            </div>
+            <div class="special-menu-product">
+              <figure>
+                <img src="/assets/menu_item_5.png" alt="Picture of coffee product">
+              </figure>
+              <div class="special-menu-button"></div>
+            </div>
+            <div class="special-menu-product">
+              <figure>
+                <img src="/assets/menu_item_6.png" alt="Picture of coffee product">
+              </figure>
+              <div class="special-menu-button"></div>
+            </div>
+            <div class="special-menu-product">
+              <figure>
+                <img src="/assets/menu_item_7.png" alt="Picture of coffee product">
+              </figure>
+              <div class="special-menu-button"></div>
+            </div>
+            <div class="special-menu-product">
+              <figure>
+                <img src="/assets/menu_item_8.png" alt="Picture of coffee product">
+              </figure>
+              <div class="special-menu-button"></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-us">
+          <figure class="about-us-img">
+            <img src="/assets/serving-coffee.png" alt="Picture of a waiter serving coffee">
+          </figure>
+          <div class="button"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="end">
+    <section class="end-container">
+      <figure class="hero-coffee-bean2">
+        <img src="/assets/hero-coffee-bean.png" alt="Picture of a coffee bean" height="100%" width="100%">
+      </figure>
+      <div class="divisor"></div>
+      <div class="email">
+        <div class="email-button"></div>
+      </div>
+      <div class="social-media">
+        <figure class="social-media-icon">
+          <img src="/assets/facebook_logo.png" alt="Icon of Facebook" width="100%" height="100%">
         </figure>
-        <div class="divisor"></div>
-        <div class="email">
-          <div class="email-button"></div>
-        </div>
-        <div class="social-media">
-          <figure class="social-media-icon">
-            <img src="/assets/facebook_logo.png" alt="Icon of Facebook" width="100%" height="100%">
-          </figure>
-          <figure class="social-media-icon">
-            <img src="/assets/instagram-logo.png" alt="Icon of Instagram" width="100%" height="100%">
-          </figure>
-          <figure class="social-media-icon">
-            <img src="/assets/twitter-logo.png" alt="Icon of Twitter" width="100%" height="100%">
-          </figure>
-        </div>
-      </section>
-    </footer>
-    <script src="index.js"></script>
-  </body>
+        <figure class="social-media-icon">
+          <img src="/assets/instagram-logo.png" alt="Icon of Instagram" width="100%" height="100%">
+        </figure>
+        <figure class="social-media-icon">
+          <img src="/assets/twitter-logo.png" alt="Icon of Twitter" width="100%" height="100%">
+        </figure>
+      </div>
+    </section>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
 </html>
-
-

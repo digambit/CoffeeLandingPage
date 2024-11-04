@@ -163,7 +163,6 @@ html {
 }
 
 .development-container {
-  position: relative;
   width: 100%;
   max-width: 1440px;
   background-color: seagreen;
@@ -171,7 +170,6 @@ html {
 }
 
 .cold-coffee {
-  position: relative;
   height: 535px;
   background: firebrick;
   padding-top: 95px;
@@ -316,15 +314,55 @@ cursor: pointer;
   position: relative;
 }
 
+.about-us-img {
+  position: absolute;
+  top: 25px;
+  left: 70px;
+  background-color: #ffbd7f;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.about-us-img img {
+  display: block;
+  width: 280px;
+  height: 230px;
+  border-radius: 20px;
+}
+
 .about-us .button {
   top: 542px;
 }
 
 .end {
+  background-color: khaki;
+  min-width: 300px;
+}
+
+.end-container {
   width: 100%;
   height: 540px;
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: gold;
   position: relative;
+}
+
+.hero-coffee-bean2 {
+  position: absolute;
+  width: 40px;
+  height: 64px;
+  left: 25px;
+  top: 25px;
+}
+
+.divisor {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  width: 300px;
+  height: 2px;
+  background-color: black;
 }
 
 .email {
@@ -347,6 +385,24 @@ cursor: pointer;
   background-color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.social-media {
+  position: absolute;
+  width: 115px;
+  height: 25px;
+  top: 480px;
+  left: 150px;
+  display: grid;
+  grid-template-columns: 25px 25px 25px;
+  grid-template-rows: 25px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.social-media-icon {
+  width: 25px;
+  height: 25px;
 }
 
 @media screen and (min-width: 600px) {
@@ -437,6 +493,8 @@ cursor: pointer;
     height: 200px;
     position: absolute;
     top: 760px;
+    left: 150px;
+    width: 1150px;
     border-radius: 75px;
     z-index: 1;
     padding-top: 35px;
@@ -461,7 +519,7 @@ cursor: pointer;
   }
 
   .carousel-view .item-list {
-    max-width: 1440px;
+    max-width: 1200px;
   }
 
   .reward-program {
@@ -471,7 +529,7 @@ cursor: pointer;
   .star-icon {
     width: 100px;
     height: 100px;
-    margin-left: 0px;
+    margin-left: 140px;
   }
 
   .special-menu {
@@ -505,21 +563,47 @@ cursor: pointer;
     height: 485px;
   }
 
+  .about-us-img {
+    top: 40px;
+    left: 160px;
+  }
+  
+  .about-us-img img {
+    width: 468px;
+    height: 385px;
+  }
+
   .about-us .button {
     top: 340px;
-    left: 625px;
+    left: 730px;
     height: 40px;
     width: 100%;
     max-width: 144px;
   }
 
-  .end{
+  .end-container{
     height: 460px;
+  }
+
+  .hero-coffee-bean2 {
+    left: 136px;
+    top: 65px;
+  }
+
+  .divisor {
+    top: 170px;
+    left: 200px;
+    width: 1100px;
   }
 
   .email {
     top: 250px;
     left: 922px;
+  }
+
+  .social-media {
+    top: 85px;
+    left: 1100px;
   }
 }
 

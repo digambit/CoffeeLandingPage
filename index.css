@@ -75,6 +75,14 @@ html {
   position: relative;
 }
 
+.hero-left-container .hero-title {
+  display: none;
+}
+
+.hero-left-container .hero-subtitle {
+  display: none;
+}
+
 .hero-right-container {
   width: 50%;
   height: 100%;
@@ -117,21 +125,24 @@ html {
 }
 
 .hero-button {
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 1.4rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   height: 35px;
-  width: 100%;
   max-width: 140px;
   background-color: red;
   border-radius: 24px;
 }
 
 .button {
-  left: 25px;
-  position: absolute;
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 1.8rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   height: 35px;
   width: 100%;
@@ -201,7 +212,7 @@ html {
   padding-top: 95px;
 }
 
-button{
+button {
   border: none;
   cursor: pointer;
   color: white;
@@ -463,20 +474,27 @@ cursor: pointer;
   .hero-left-container {
     width: 64%;
     height: 100%;
+    padding-left: 136px;
+    padding-top: 235px;
+  }
+
+  .hero-left-container .hero-title {
+    display: block;
+    width: 450px;
+    font-size: 4.5rem;
+  }
+  
+  .hero-left-container .hero-subtitle {
+    display: block;
+    width: 380px;
   }
 
   .hero-left-container .button {
     display: block;
     display: flex;
-    top: 472px;
-    left: 136px;
     height: 46px;
     width: 100%;
     max-width: 170px;
-  }
-
-  .button-circle {
-    margin-right: 50px;
   }
 
   .hero-right-container {

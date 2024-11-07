@@ -53,6 +53,10 @@ html {
   position: relative;
 }
 
+.nav-bar-text {
+  display: none;
+}
+
 .hero-coffee-bean {
   position: absolute;
   width: 28px;
@@ -101,6 +105,10 @@ html {
   display: none;
 }
 
+.search-bar-text {
+  display: none;
+}
+
 .hero-text-container {
   width: 100%;
   min-height: 315px;
@@ -138,6 +146,7 @@ html {
 }
 
 .button {
+  position: relative;
   padding-left: 15px;
   font-weight: 600;
   font-size: 1.8rem;
@@ -183,15 +192,31 @@ html {
   padding-top: 25px;
   display: grid;
   grid-template-columns: 70px 70px;
-  grid-template-rows: 65px;
   column-gap: 88px;
-  row-gap: 88px;
   justify-content: center;
 }
 
 .product {
-  width: 70px;
-  height: 65px;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #ffbd7f;
+}
+
+.product figure {
+  width: fit-content;
+  height: fit-content;
+}
+
+.product span {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.product-color-change {
+  color: blue;
 }
 
 .development {
@@ -349,6 +374,7 @@ cursor: pointer;
   height: 600px;
   background-color: salmon;
   position: relative;
+  padding: 25px;
 }
 
 .about-us-img {
@@ -368,7 +394,7 @@ cursor: pointer;
 }
 
 .about-us .button {
-  top: 542px;
+  top: 515px;
 }
 
 .end {
@@ -434,12 +460,6 @@ cursor: pointer;
   grid-template-columns: 25px 25px 25px;
   grid-template-rows: 25px;
   column-gap: 20px;
-  row-gap: 20px;
-}
-
-.social-media-icon {
-  width: 25px;
-  height: 25px;
 }
 
 @media screen and (min-width: 600px) {
@@ -450,6 +470,23 @@ cursor: pointer;
 
   .navbar {
     height: 64px;
+  }
+
+  .nav-bar-text {
+    position: absolute;
+    top: 20px;
+    left: 550px;
+    font-size: 1.6rem;
+    display: block;
+    background-color: aqua;
+  }
+
+  .nav-bar-text span {
+    padding-right: 65px;
+  }
+  
+  .nav-bar-color-change {
+    color: blue;
   }
 
   .hero-coffee-bean {
@@ -532,6 +569,15 @@ cursor: pointer;
     top: 10px;
     left: 15px;
   }
+
+  .search-bar-text {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 1.6rem;
+    display: block;
+    background-color: aqua;
+  }
   
   .hero-footer {
     height: 200px;
@@ -545,12 +591,10 @@ cursor: pointer;
     display: grid;
     grid-template-columns: 90px 90px 90px 90px;
     column-gap: 150px;
-    justify-content: center;
   }
   
   .product {
-    width: 90px;
-    height: 82px;
+    justify-content: center;
   }
 
   .hero-text-container {

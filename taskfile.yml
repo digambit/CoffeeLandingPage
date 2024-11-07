@@ -33,7 +33,8 @@ tasks:
 
   commit:
     cmds:
-      - git commit -a
+      - git add .
+      - git commit
       - git push
       
   change-message:

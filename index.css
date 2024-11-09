@@ -269,24 +269,24 @@ button {
 }
 
 .carousel-view {
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 10px;
-padding: 50px 0;
-transition: all 0.25s ease-in;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 50px 0;
+  transition: all 0.25s ease-in;
 }
 
 .carousel-view .item-list {
-max-width: 300px;
-padding: 50px 10px;
-display: flex;
-gap: 50px;
-scroll-behavior: smooth;
-transition: all 0.25s ease-in;
-scrollbar-width: none;
-overflow: auto;
-scroll-snap-type: x mandatory;
+  max-width: 300px;
+  padding: 50px 10px;
+  display: flex;
+  gap: 50px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  scrollbar-width: none;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
 }
 
 .prev-btn {
@@ -306,6 +306,7 @@ cursor: pointer;
 .item {
   scroll-snap-align: center;
   min-width: 260px;
+  max-height: 420px;
   background: lawngreen;
   border-radius: 20px;
   padding: 15px;
@@ -400,11 +401,23 @@ cursor: pointer;
 
 .special-menu {
   display: flex;
+  font-size: 2.6rem;
+  flex-direction: column;
+  font-weight: 600;
   height: 600px;
   background-color: chocolate;
-  padding-top: 80px;
   overflow-x: scroll;
   scrollbar-width: none;
+}
+
+.special-menu-text {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.special-menu-underline {
+  text-decoration: underline;
 }
 
 .grid-container {
@@ -419,6 +432,8 @@ cursor: pointer;
 
 .special-menu-product {
   background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
   padding: 8px;
 }
@@ -430,13 +445,22 @@ cursor: pointer;
   border-radius: 20px;
 }
 
+.product-price-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .special-menu-button {
   width: 112px;
   height: 34px;
-  margin-top: 40px;
-  margin-left: 114px;
   background-color: forestgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 
 .about-us {
@@ -718,7 +742,13 @@ cursor: pointer;
 
   .special-menu {
     height: 760px;
-    padding-top: 140px;
+  }
+
+  .special-menu-text {
+    margin-left: 136px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3.4rem;
   }
 
   .grid-container {
@@ -736,11 +766,14 @@ cursor: pointer;
     width: 230px;
   }
 
+  .product-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
   .special-menu-button {
     width: 120px;
     height: 40px;
-    margin-top: 50px;
-    margin-left: 114px;
   }
 
   .about-us {

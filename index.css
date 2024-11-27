@@ -1,3 +1,18 @@
+:root {
+  --white: #fff;
+  --albescent-white: #F6EBDA;
+  --macaroni-cheese: #FFBD7F;
+  --light-yellow: #f6ebda;
+  --sepia-skin: #A0583C;
+  --roman-coffee: #835E4C;
+  --brown-tumbleweed: #2F2105;
+  --black: #000;
+  --title-font: 3.5rem;
+  --title-font-weight: 600;
+  --subtitle-font: 2.6rem;
+  --text-font: 1.6rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +25,6 @@ html {
 }
 
 .hero {
-  background-color: aqua;
   min-width: 300px
 }
 
@@ -18,7 +32,6 @@ html {
   position: relative;
   width: 100%;
   max-width: 1440px;
-  background-color: purple;
   margin: 0 auto;
 }
 
@@ -44,7 +57,6 @@ html {
   height: 44px;
   width: 100%;
   position: absolute;
-  background-color: #ffbd7f;
 }
 
 .navbar-content-wrapper {
@@ -75,7 +87,7 @@ html {
 .hero-left-container {
   width: 50%;
   height: 100%;
-  background-color: white;
+  background-color: var(--white);
   position: relative;
 }
 
@@ -90,7 +102,7 @@ html {
 .hero-right-container {
   width: 50%;
   height: 100%;
-  background-color: yellow;
+  background-color: var(--macaroni-cheese);
 }
 
 .hero-coffee-beans {
@@ -113,42 +125,46 @@ html {
   width: 100%;
   min-height: 315px;
   width: 100%;
-  background-color: pink;
+  background-color: var(--white);
   padding: 25px;
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: var(--title-font);
   padding-bottom: 20px;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
 }
 
 .hero-subtitle {
-  font-size: 1.6rem;
+  font-size: var(--text-font);
   margin-bottom: 25px;
 }
 
 .hero-color-change {
-  color: blue;
+  color: var(--macaroni-cheese);
 }
 
 .hero-button {
   padding-left: 15px;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
   font-size: 1.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 35px;
   max-width: 140px;
-  background-color: red;
+  background-color: var(--brown-tumbleweed);
   border-radius: 24px;
+}
+
+.hero-button span {
+  color: var(--white)
 }
 
 .button {
   position: relative;
   padding-left: 15px;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
   font-size: 1.8rem;
   display: flex;
   justify-content: space-around;
@@ -156,8 +172,12 @@ html {
   height: 35px;
   width: 100%;
   max-width: 140px;
-  background-color: red;
+  background-color: var(--brown-tumbleweed);
   border-radius: 24px;
+}
+
+.button span {
+  color: var(--white)
 }
 
 .hero-left-container .button {
@@ -172,7 +192,7 @@ html {
   width: 100%;
   max-width: 22px;
   height: 22px;
-  background-color: aliceblue;
+  background-color: var(--macaroni-cheese);
   border-radius: 24px;
   margin-right: 20px;
   display: flex;
@@ -188,7 +208,7 @@ html {
 .hero-footer {
   width: 100%;
   height: 313px;
-  background-color: green;
+  background-color: var(--light-yellow);
   padding-top: 25px;
   display: grid;
   grid-template-columns: 70px 70px;
@@ -199,7 +219,6 @@ html {
 .product {
   display: flex;
   flex-flow: row wrap;
-  background-color: #ffbd7f;
 }
 
 .product figure {
@@ -208,36 +227,34 @@ html {
 }
 
 .product span {
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: var(--text-font);
+  font-weight: var(--title-font-weight);
   text-align: center;
   width: 100%;
   margin-top: -20px;
 }
 
 .product-color-change {
-  color: blue;
+  color: var(--roman-coffee);
 }
 
 .development {
-  background-color: hotpink;
   min-width: 300px;
 }
 
 .development-container {
   width: 100%;
   max-width: 1440px;
-  background-color: seagreen;
   margin: 0 auto;
 }
 
 .cold-coffee {
   height: 535px;
-  background: firebrick;
+  background: var(--white);
   display: flex;
-  font-size: 2.6rem;
+  font-size: var(--subtitle-font);
   flex-direction: column;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
 }
 
 .cold-coffee-text {
@@ -247,13 +264,12 @@ html {
 
 .cold-coffee-underline {
   text-decoration: underline;
+  text-decoration-color: var(--macaroni-cheese);
 }
 
 button {
   border: none;
   cursor: pointer;
-  color: white;
-  background: none;
   transition: all .3s ease-in-out;
 }
 
@@ -265,7 +281,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .carousel-view {
@@ -290,24 +306,25 @@ button {
 }
 
 .prev-btn {
-background: none;
-cursor: pointer;
+  background: none;
+  cursor: pointer;
 }
 
 .next-btn {
-cursor: pointer;
+  background: none;
+  cursor: pointer;
 }
 
 .carousel-button {
   width: 50px;
-  fill: red;
+  fill: var(--roman-coffee);
 }
 
 .item {
   scroll-snap-align: center;
   min-width: 260px;
   max-height: 420px;
-  background: lawngreen;
+  background: var(--roman-coffee);
   border-radius: 20px;
   padding: 15px;
   display: flex;
@@ -315,9 +332,13 @@ cursor: pointer;
   flex-wrap: wrap;
 }
 
+.item span {
+  color: var(--white);
+}
+
 .item-title {
   font-size: 2.4rem;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
   margin-top: 5px;
 }
 
@@ -330,7 +351,7 @@ cursor: pointer;
 
 .item-price {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
 }
 
 .item-price-button {
@@ -350,7 +371,8 @@ cursor: pointer;
 .item-button {
   width: 120px;
   height: 38px;
-  background-color: pink;
+  background-color: var(--sepia-skin);
+  color: var(--white);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -362,7 +384,7 @@ cursor: pointer;
 .reward-program {
   width: 100%;
   height: 130px;
-  background-color: blue;
+  background-color: var(--light-yellow);
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -380,7 +402,7 @@ cursor: pointer;
 }
 
 .sign-up {
-  font-size: 2.6rem;
+  font-size: var(--subtitle-font);
   margin-left: 15px;
   font-weight: 500;
 }
@@ -389,7 +411,7 @@ cursor: pointer;
   display: flex;
   align-items: center;
   margin-left: 15px;
-  font-size: 1.6rem;
+  font-size: var(--text-font);
   margin-top: 5px;
 }
 
@@ -401,11 +423,11 @@ cursor: pointer;
 
 .special-menu {
   display: flex;
-  font-size: 2.6rem;
+  font-size: var(--subtitle-font);
   flex-direction: column;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
   height: 600px;
-  background-color: chocolate;
+  background-color: var(--white);
   overflow-x: scroll;
   scrollbar-width: none;
 }
@@ -418,6 +440,7 @@ cursor: pointer;
 
 .special-menu-underline {
   text-decoration: underline;
+  text-decoration-color: var(--macaroni-cheese);
 }
 
 .grid-container {
@@ -432,7 +455,8 @@ cursor: pointer;
 }
 
 .special-menu-product {
-  background-color: antiquewhite;
+  background-color: var(--roman-coffee);
+  color: var(--white);
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -455,7 +479,7 @@ cursor: pointer;
 .special-menu-button {
   width: 112px;
   height: 34px;
-  background-color: forestgreen;
+  background-color: var(--sepia-skin);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -467,7 +491,7 @@ cursor: pointer;
 .about-us {
   width: 100%;
   height: 600px;
-  background-color: salmon;
+  background-color: var(--light-yellow);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -475,7 +499,7 @@ cursor: pointer;
 }
 
 .about-us-img {
-  background-color: #ffbd7f;
+  background-color: var(--white);
   border-radius: 20px;
   padding: 5px;
 }
@@ -488,13 +512,14 @@ cursor: pointer;
 }
 
 .about-us-title {
-  font-weight: 600;
-  font-size: 2.6rem;
+  font-weight: var(--title-font-weight);
+  font-size: var(--subtitle-font);
   margin-top: 25px;
 }
 
 .about-us-underline {
   text-decoration: underline;
+  text-decoration-color: var(--macaroni-cheese);
 }
 
 .about-us-subtitle {
@@ -505,18 +530,18 @@ cursor: pointer;
 }
 
 .about-us-content {
-  font-size: 1.6rem;
+  font-size: var(--text-font);
   margin-bottom: 20px;
 }
 
 .about-us .button {
-  font-size: 1.6rem;
+  font-size: var(--text-font);
   max-width: 160px;
   justify-content: left;
+  color: var(--macaroni-cheese);
 }
 
 .end {
-  background-color: khaki;
   min-width: 300px;
 }
 
@@ -525,7 +550,7 @@ cursor: pointer;
   height: 540px;
   max-width: 1440px;
   margin: 0 auto;
-  background-color: gold;
+  background-color: var(--white);
   padding-left: 25px;
   display: flex;
   flex-direction: column;
@@ -545,15 +570,15 @@ cursor: pointer;
 }
 
 .end-title-text {
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: var(--title-font-weight);
+  font-size: var(--subtitle-font);
   margin-left: 25px;
 }
 
 .divisor {
   width: 300px;
   height: 2px;
-  background-color: black;
+  background-color: lightgray;
   margin-left: 50px;
   margin-top: 20px;
 }
@@ -562,18 +587,19 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .end-nav-bar span {
   margin-bottom: 20px;
+  color: var(--roman-coffee);
 }
 
 .newsletter {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: var(--title-font-weight);
   margin-bottom: 20px;
 }
 
@@ -581,7 +607,6 @@ cursor: pointer;
   margin-top: 20px;
   height: 56px;
   max-width: 318px;
-  background-color: teal;
   border-radius: 5px;
   display: flex;
 }
@@ -596,7 +621,8 @@ cursor: pointer;
   align-items: center;
   height: 100%;
   width: 60%;
-  background-color: #ffbd7f;
+  background-color: var(--light-yellow);
+  color: var(--roman-coffee);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -606,7 +632,8 @@ cursor: pointer;
   align-items: center;
   height: 100%;
   width: 40%;
-  background-color: white;
+  background-color: var(--roman-coffee);
+  color: var(--white);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -615,7 +642,6 @@ cursor: pointer;
   margin-top: 25px;
   margin-left: -15px;
   justify-content: center;
-  background-color: #ffbd7f;
   width: 100%;
   height: 25px;
   display: grid;
@@ -638,9 +664,8 @@ cursor: pointer;
     position: absolute;
     top: 20px;
     left: 550px;
-    font-size: 1.6rem;
+    font-size: var(--text-font);
     display: block;
-    background-color: aqua;
   }
 
   .nav-bar-text span {
@@ -648,7 +673,7 @@ cursor: pointer;
   }
   
   .nav-bar-color-change {
-    color: blue;
+    color: var(--macaroni-cheese);
   }
 
   .hero-coffee-bean {
@@ -721,7 +746,7 @@ cursor: pointer;
     top: calc(50% - 21px);
     width: 222px;
     height: 42px;
-    background-color: aliceblue;
+    background-color: var(--white);
     border-radius: 20px;
     right: 204px;
   }
@@ -737,9 +762,8 @@ cursor: pointer;
     position: absolute;
     top: 10px;
     left: 50px;
-    font-size: 1.6rem;
+    font-size: var(--text-font);
     display: block;
-    background-color: aqua;
   }
   
   .hero-footer {
@@ -868,7 +892,7 @@ cursor: pointer;
   }
   
   .about-us-subtitle {
-    font-size: 2.6rem;
+    font-size: var(--subtitle-font);
   }
   
   .about-us-content {

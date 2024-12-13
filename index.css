@@ -930,6 +930,7 @@ button {
 @media screen and (min-width: 1125px) {
   .about-us-text {
     margin-left: 50px;
+    margin-right: 50px;
   }
   }
 
@@ -1000,14 +1001,42 @@ button {
   .end-container {
     height: 460px;
     padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: row;
+  }
+
+  .end-container-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
   }
 }
 
-.end-container-wrapper {
-  width: 100%;
-  height: 460px;
-  max-width: 1440px;
-  position: relative;
+.divisor {
+  position: absolute;
+  width: 300px;
+  height: 2px;
+  background-color: lightgray;
+  left: 50px;
+  top: 50px;
+}
+
+@media screen and (min-width: 1125px) {
+  .divisor {
+    width: 85%;
+    left: 75px;
+    top: 140px;
+  }
+}
+
+@media screen and (min-width: 1125px) {
+  .end-left-container {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .end-title {
@@ -1041,28 +1070,6 @@ button {
 }
 }
 
-.divisor {
-  width: 300px;
-  height: 2px;
-  background-color: lightgray;
-  margin-left: 50px;
-  margin-top: 20px;
-}
-
-@media screen and (min-width: 1125px) {
-  .divisor {
-    width: 900px;
-    margin-left: 100px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .divisor {
-    width: 1000px;
-    margin-left: 100px;
-  }
-}
-
 .end-nav-bar {
   display: flex;
   flex-direction: column;
@@ -1086,6 +1093,16 @@ button {
   color: var(--roman-coffee);
 }
 
+@media screen and (min-width: 1125px) {
+  .end-right-container {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+}
+
 .newsletter {
   font-size: 1.8rem;
   font-weight: var(--title-font-weight);
@@ -1096,26 +1113,21 @@ button {
 .newsletter {
   font-size: 2rem;
   font-weight: 500;
-  position: absolute;
-  top: 210px;
-  left: 775px;
+  margin-top: 100px;
 }
 }
 
 .email {
   margin-top: 20px;
   height: 56px;
-  max-width: 318px;
+  width: 318px;
   border-radius: 5px;
-  display: flex;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1125px) {
   .email {
-    position: absolute;
-    top: 240px;
-    left: 775px;
-    width: 320px;
+    display: flex;
+    margin-top: 10px;
   }
   }
 
@@ -1160,9 +1172,8 @@ button {
 
 @media screen and (min-width: 1125px) {
 .social-media {
-  position: absolute;
-  top: 60px;
-  left: 950px;
+  padding-top: 60px;
+  padding-left: 150px;
   width: fit-content;
 }
 }

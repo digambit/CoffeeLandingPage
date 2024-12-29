@@ -885,7 +885,6 @@ button {
 
 @media screen and (min-width: 700px) {
   .grid-container {
-    margin: 0 auto;
     grid-template-columns: repeat(4, 260px);
     grid-template-rows: repeat(2, 266px);
     grid-column-gap: 30px;
@@ -896,6 +895,7 @@ button {
 @media screen and (max-width: 1200px) {
   .grid-container {
     margin-left: 30px;
+    padding-right: 30px;
   }
 }
 

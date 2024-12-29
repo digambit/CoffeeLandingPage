@@ -435,7 +435,7 @@ html {
   color: var(--white);
 }
 
-.hero-footer {
+.hero-footer-wrapper {
   width: 100%;
   height: 313px;
   background-color: var(--light-yellow);
@@ -447,7 +447,7 @@ html {
 }
 
 @media screen and (min-width: 1125px) {
-  .hero-footer {
+  .hero-footer-wrapper {
     margin: 0 auto;
     height: 200px;
     max-width: 1150px;
@@ -461,7 +461,7 @@ html {
 }
 
 @media screen and (max-width: 1124px) and (min-width: 850px) {
-  .hero-footer {
+  .hero-footer-wrapper {
     margin: 0 auto;
     height: 200px;
     max-width: 1150px;
@@ -475,7 +475,7 @@ html {
 }
 
 @media screen and (max-width: 849px) and (min-width: 700px) {
-  .hero-footer {
+  .hero-footer-wrapper {
     margin: 0 auto;
     height: 200px;
     max-width: 1150px;
@@ -489,7 +489,7 @@ html {
 }
 
 @media screen and (max-width: 699px) and (min-width: 600px) {
-  .hero-footer {
+  .hero-footer-wrapper {
     width: 100%;
     height: 313px;
     background-color: var(--light-yellow);
@@ -501,7 +501,7 @@ html {
   }
 }
 
-.hero-footer-wrapper {
+.hero-footer {
   width: 100%;
   height: fit-content;
   position: absolute;
@@ -509,7 +509,7 @@ html {
 }
 
 @media screen and (max-width: 700px) {
-  .hero-footer-wrapper {
+  .hero-footer {
     position: static;
   }
 }
@@ -573,10 +573,15 @@ html {
   margin-left: 20px;
 }
 
+@media screen and (min-width: 1125px) {
+  .cold-coffee-text {
+    margin-left: 134px;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .cold-coffee-text {
     margin-top: 160px;
-    margin-left: 30px;
   }
 }
 
@@ -609,6 +614,7 @@ button {
 }
 
 .carousel-view {
+  max-width: 1300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -622,7 +628,7 @@ button {
   width: 100%;
   padding: 50px 10px;
   display: flex;
-  gap: 50px;
+  gap: 20px;
   scroll-behavior: smooth;
   transition: all 0.25s ease-in;
   scrollbar-width: none;
@@ -725,7 +731,6 @@ button {
   height: 130px;
   background-color: var(--light-yellow);
   display: flex;
-  align-items: center;
   flex-direction: row;
 }
 
@@ -733,18 +738,19 @@ button {
   .reward-program {
     height: 195px;
   }
+}
 
-  .reward-program-wrapper{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin: 0 auto;
-  }
+.reward-program-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .star-icon {
-  width: 65px;
-  height: 45px;
+  min-width: 65px;
+  height: 65px;
   margin-left: 25px;
 }
 
@@ -752,6 +758,15 @@ button {
   .star-icon {
     width: 100px;
     height: 100px;
+    margin-left: 134px;
+  }
+}
+
+@media screen and (min-width: 1125px) {
+  .star-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: 134px;
   }
 }
 
@@ -768,7 +783,7 @@ button {
 
 @media screen and (min-width: 1125px) {
   .sign-up {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 30px;
   }
 }
@@ -784,7 +799,7 @@ button {
 @media screen and (min-width: 1125px) {
   .learn-more {
     margin-left: 30px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 

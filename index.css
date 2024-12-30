@@ -748,21 +748,27 @@ button {
   flex-direction: row;
 }
 
+@media screen and (min-width: 1400px) {
+  .reward-program-wrapper {
+    justify-content: center;
+  }
+}
+
 .star-icon {
   min-width: 65px;
   height: 65px;
   margin-left: 25px;
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (min-width: 1400px) {
   .star-icon {
     width: 100px;
     height: 100px;
-    margin-left: 134px;
+    margin-left: 0px;
   }
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (max-width: 1399px) and (min-width: 1125px) {
   .star-icon {
     width: 100px;
     height: 100px;
@@ -969,7 +975,7 @@ button {
   padding: 25px;
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (min-width: 700px) {
   .about-us {
     height: 485px;
     flex-direction: row;
@@ -989,17 +995,17 @@ button {
   padding: 5px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1250px) {
   .about-us-img {
-    margin-left: 250px;
+    margin-left: 115px;
   }
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (max-width: 1249px) and (min-width: 1000px) {
   .about-us-img {
-    margin-left: 50px;
+    margin-left: 30px;
   }
-  }
+}
 
 .about-us-img img {
   display: block;
@@ -1008,26 +1014,40 @@ button {
   border-radius: 20px;
 }
 
-@media screen and (min-width: 1125px) {
-.about-us-img img {
-  width: 468px;
-  height: 385px;
+@media screen and (min-width: 850px) {
+  .about-us-img img {
+    width: 480px;
+    height: 430px;
+  }
 }
+
+@media screen and (max-width: 849px) and (min-width: 700px) {
+  .about-us-img img {
+    width: 380px;
+    height: 330px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-.about-us-text {
-  margin-left: 150px;
-  max-width: 500px;
-}
+  .about-us-text {
+    margin-left: 150px;
+    max-width: 500px;
+  }
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (min-width: 1000px) {
+  .about-us-text {
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 700px) {
   .about-us-text {
     margin-left: 50px;
     margin-right: 50px;
   }
-  }
+}
 
 .about-us-title {
   font-weight: var(--title-font-weight);
@@ -1035,7 +1055,7 @@ button {
   margin-top: 25px;
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (min-width: 1000px) {
 .about-us-title {
   font-size: 3.4rem;
 }
@@ -1053,7 +1073,7 @@ button {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (min-width: 1000px) {
 .about-us-subtitle {
   font-size: var(--subtitle-font);
 }
@@ -1064,7 +1084,7 @@ button {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1125px) {
+@media screen and (min-width: 1000px) {
 .about-us-content {
   font-size: 1.7rem;
 }

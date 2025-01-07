@@ -1138,26 +1138,6 @@ button {
   }
 }
 
-
-.divisor {
-  margin-top: 40px;
-  margin-left: 100px;
-  margin-right: 100px;
-  width: calc(100% - 200px);
-  height: 1px;
-  background-color: lightgray;
-}
-
-
-@media screen and (min-width: 800px) {
-  .end-left-container {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .end-header {
   display: flex;
   flex-direction: row;
@@ -1166,13 +1146,61 @@ button {
   height: fit-content;
   width: 100%;
   padding-top: 65px;
-  padding-left: 80px;
+  padding-left: 25px;
   padding-right: 80px;
+}
+
+@media screen and (min-width: 1400px) {
+  .end-header {
+    padding-left: 134px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .end-header {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .end-header {
+    padding-top: 25px;
+  }
+}
+
+.divisor {
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: calc(100% - 150px);
+  height: 1px;
+  background-color: lightgray;
+}
+
+@media screen and (min-width: 1400px) {
+  .divisor {
+    margin-left: 200px;
+    margin-right: 200px;
+    width: calc(100% - 250px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .divisor {
+    margin-left: 0px;
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .divisor {
+    margin-top: 25px;
+  }
 }
 
 .end-footer {
   padding-top: 60px;
-  padding-left: 80px;
+  padding-left: 125px;
   padding-right: 80px;
   display: flex;
   flex-direction: column;
@@ -1182,6 +1210,24 @@ button {
   .end-footer {
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .end-footer {
+    padding-left: 215px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .end-footer {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .end-footer {
+    padding-top: 25px;
   }
 }
 
@@ -1235,6 +1281,12 @@ button {
   width: 300px;
 }
 
+@media screen and (max-width: 800px) {
+  .newsletter-container {
+    padding-top: 25px;
+  }
+}
+
 .social-media {
   display: none;
 }
@@ -1244,9 +1296,9 @@ button {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    padding-right: 80px;
   }
 }
-
 
 .newsletter {
   width: 100%;
@@ -1301,4 +1353,19 @@ button {
   color: var(--white);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.social-media2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 800px) {
+  .social-media2 {
+    display: none;
+  }
 }

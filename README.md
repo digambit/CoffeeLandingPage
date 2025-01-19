@@ -1,4 +1,4 @@
-# Coffee Landing Page
+# Coffee Landing Page [Mockup]
 
 ## Welcome! 👋
 

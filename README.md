@@ -1,38 +1,83 @@
-# Coffee Landing Page [Mockup]
+# ☕ Coffee Landing Page
 
-## Welcome! 👋
+A simple and modern coffee-themed landing page built with HTML, CSS, and JavaScript. Ideal for learning, inspiration, or use as a base for your own projects.
 
-I built a coffee-themed landing page called Coffee Love in this project.
+![Coffee Landing Page Screenshot](./assets/preview.png)
 
-I utilized flexbox and grid skills in this HTML and CSS-only landing page (although, I added a bit of JavaScript too). The layout shifts for mobile and tablet, which was a great way to practice my responsive skills, along with a tricky layout design for the hero.
+## 🚀 Demo
 
-# Style Guide
+Check out the live version here: [CoffeeLandingPage Live](https://digambit.github.io/CoffeeLandingPage/)
 
-## Layout
+## ✨ Features
 
-The designs were created to the following widths:
+- Clean and modern design
+- Responsive layout for all screen sizes
+- Smooth scroll and subtle animations
+- Modular and easy-to-understand codebase
+- Vanilla HTML, CSS, and JS – no frameworks required
 
-- Mobile: 515px
-- Tablet: 700px
-- Desktop: 1440px
+## 🎨 Design Overview
 
-## Typography
+### Typography
 
-- Poppins: [Google Fonts](https://fonts.google.com/specimen/Poppins) (300, 400, 600, 700)
+Main Font: Poppins, sans-serif (imported from Google Fonts)
+Used for: All headings and body text
 
-## Colors
+### Color Palette
 
-- White: #fff
-- Albescent White: #F6EBDA
-- Macaroni & Cheese: #FFBD7F
-- Sepia Skin: #A0583C
-- Roman Coffee: #835E4C
-- Brown Tumbleweed: #2F2105
-- Black: #000
+* Primary Color	#4B3832 -	Deep coffee brown
+* Accent Color	#DDB892 -	Warm cream/tan highlight
+* Background	#F5F5F5	- Soft gray-beige background
+* Text Color	#333333	- Rich dark for readability
+  
+### Responsive Design
 
-# Have feedback for me?
+The landing page is fully responsive using media queries.
+Layout adjusts for mobile, tablet, and desktop screens.
 
-I'm always looking to improve my projects and challenges, so if you have anything you'd like to mention, please email me.
+## 🛠️ How to Use
 
-**Thanks for reading!** 🚀
-=======
+### Clone the Repository
+
+git clone https://github.com/digambit/CoffeeLandingPage.git
+
+### Customization Tips
+
+Want to make it your own?
+
+* Change colors and fonts in css/style.css.
+* Swap images in the assets/ folder.
+* Modify text directly in index.html.
+* Add sections or animations using plain JavaScript or scroll libraries like AOS.
+
+## 📚 Learning Goals
+
+This project is great for:
+
+* Practicing responsive design
+* Writing clean HTML/CSS
+* Learning basic JavaScript interactions
+* Understanding how to structure simple front-end projects
+
+## 🤝 Contributing
+
+If you'd like to contribute or suggest improvements, feel free to:
+
+* [Buy me a coffee](https://buymeacoffee.com/digambit)
+* Fork this repository
+* Create a new branch: git checkout -b feature/my-feature
+* Commit your changes: git commit -m 'Add my feature'
+* Push to the branch: git push origin feature/my-feature
+* Open a pull request
+
+## 🪪 License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.  
+You’re free to use it for learning, inspiration, and personal projects — just don’t sell it.  
+[Read more here](https://creativecommons.org/licenses/by-nc/4.0/)
+
+## 🙌 Acknowledgments
+
+Thanks to [@asanchezyali](https://github.com/asanchezyali) for inspiration and lot of learning support!
+
+# Made with ❤️ by [@digambit](https://github.com/digambit)

@@ -78,6 +78,6 @@ You’re free to use it for learning, inspiration, and personal projects — jus
 
 ## 🙌 Acknowledgments
 
-Thanks to [@asanchezyali](https://github.com/asanchezyali) for inspiration and lot of learning support!
+Thanks to [@asanchezyali](https://github.com/asanchezyali) for inspiration and lots of learning support!
 
 # Made with ❤️ by [@digambit](https://github.com/digambit)
